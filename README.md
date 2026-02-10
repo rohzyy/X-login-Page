@@ -30,6 +30,3 @@ This project focuses on recreating the UI, layout, and dark-theme design of the 
 - **Font Awesome**
 
 ---
-
-## 📂 Project Structure
-
