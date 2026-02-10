@@ -1,0 +1,166 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  background-color: black;
+  margin: 0;
+}
+
+.wrapper {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  width: 100%;
+  max-width: 600px;  
+  text-align: center;
+  padding: 32px;
+}
+
+div {
+
+  margin: auto;
+  text-align: center;
+  padding-top: 100px;
+  border-radius: 10px;
+}
+
+div .hero{
+  color: white;
+  width: 76%;
+  margin-bottom: 30px;
+  font-size: 31px;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  margin-left: -2%;
+
+
+  
+}
+
+div .google{
+  font-size: 15px;
+  padding:1.8%;
+  width: 320px;
+  margin-left: 23%;
+  border-radius: 20px;
+  align-items: center;
+  margin-left: 20%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+
+  border-radius: 9999px;
+  background-color: #fff;
+  border: 1px solid #e5e5e5;
+
+  cursor: pointer;
+
+}
+
+div .google .google-icon{
+  align-items: center;
+  width: 18px;
+  height: 18px;
+  margin-right: -3px;
+  
+  width: 18px;
+  height: 18px;
+}
+
+div .apple{
+  font-size: 15px;
+  font-weight: lighter;
+  margin: 40px;
+  margin-top: 20px;
+  margin-bottom: 5px;
+  padding: 1.8%;
+  width: 320px;
+  border-radius: 20px;
+}
+
+div .apple .fa-brands{
+  font-size: 20px;
+  margin-right: 3px;
+}
+
+.twitter{
+  font-size: 35px;
+  margin-bottom: 5%;
+}
+
+div .or{
+  margin-top: 0%;
+  color: white;
+  font-weight: 100;
+  font-size: small;
+}
+
+div .or .sup{
+  color: rgb(54, 54, 54);
+}
+
+div .input{
+  padding: 20px;
+  font-size: large;
+  background-color: black;
+  color: black;
+  border: 1px solid #2f3336;
+  border-radius: 6px;
+  margin-bottom: auto;
+  padding-right: 100px ;
+  padding-left: 8px;
+  font-size:110%;
+}
+
+div .input:click{
+  border-color: blue;
+}
+
+div .next{
+  margin-top: 10px;
+}
+
+div .nextt .next{
+  margin-top: 0.2%;
+  font-size: 100%;
+  font-weight: 550;
+  padding: 1.5%;
+  width: 320px;
+  border-radius: 20px;
+
+}
+
+div .forgot{
+  margin-top: 3%;
+  background-color: black;
+  color: rgb(255, 255, 255);
+  padding: 1.7%;
+  width: 320px;
+  border-radius: 20px;
+  border: 2px solid #3a3a3a;
+  font-weight: bold;
+}
+
+div .account .acc{
+  text-decoration: none;
+  color: rgb(0, 166, 255);
+}
+
+div .account{
+  color: rgb(92, 92, 92);
+  font-weight: 100;
+  font-size: small;
+  width: 93%;
+  margin-top: 40px;
+}
+
+/* RM */
+
